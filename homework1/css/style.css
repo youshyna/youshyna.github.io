@@ -1,0 +1,66 @@
+
+ .wrapper {
+	width: 1024px;
+	height: 1024px;
+	margin: auto;
+}
+
+body {
+	background: url(../img/background.jpg);
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	border: 1px solid grey;
+}
+.photo {
+	text-align: center;
+}
+.name {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-family: arial;
+	font-weight: bold;
+}
+.description {
+	padding: 20px 0 20px 0;
+	margin: 20px 270px;
+	font-family: arial;
+	font-size: 14px;
+	color: #848182;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+li{
+	font-size: 14px;
+	font-family: myriad pro;
+}
+header{
+	font-family: myriad pro;
+	font-size: 18px;
+	font-weight: bold;
+}
+.about,
+.phone{
+	margin: 20px 270px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.feedback{
+	padding: 0px 270px;
+}
+.phone p,
+.about p,
+.feedback p{
+	padding: 0 40px;
+	font-size: 14px;
+	font-family: myriad pro;
+}
+a{
+ 	margin: 20px 40px;
+	font-size: 14px;
+	font-family: myriad pro;
+	font-style: italic;
+	display: block;
+}
