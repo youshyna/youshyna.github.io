@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Cadastre</title>
+</head>
+<body>
+
+	<header class="header">
+		<ul class="menu">
+			<li class="menu__item"><a class="menu__link" href "#">Meu YouBike</a></li>
+			<li class="menu__item"><a class="menu__link" href "#">Vender</a></li>
+			<li class="menu__item"><a class="menu__link" href "#">Forum</a></li>
+			<li class="menu__item"><a class="menu__link" href "#">Contato</a></li>
+			<li class="menu__item"><a class="menu__link" href "#">Ajuda</a></li>
+			<li class="menu__item"><a class="menu__link menu_non-active" href "#">Minhas Ofertas</a></li>
+			<li class="menu__item menu_active">Ola!&#160;<a class="menu__link-enter" href="#">Entrar</a>&#160;ou&#160; <a class="menu__link-enter" href="#">Cadastre-se</a></li>
+		</ul>
+	</header>
+	<form class="form" action="#" method="post">
+		<h1 class="form__title"> Cadastre-se</h1>
+		<a class="form__link "href="#"><img class="icon" src="img/fb-icon.png" alt="fb"></a>
+		<p class="line">OU</p>
+		<input class="form__input" type="text" name="first-name" placeholder="First Name" required>
+		<input class="form__input" type="text" name="last-name" placeholder="Last Name" required>
+		<input class="form__input" type="text" name="email" placeholder="Email Address" required>
+		<input class="form__input" type="password" name="password" placeholder="Choose Password" required>
+		<input class="form__input" type="password" name="password-confirm" placeholder="Password Confirm" required>
+		<div class="form__checkbox">
+			<input class="form__checkbox" type="checkbox" name="updates" value="yes"><span class="cbox-text">Send me Youbike updates and tips</span>
+		</div>
+		<button class="form__btn" type="submit">Create my Account</button>
+		<div class="form__text">
+			<p>By clicking the button above, you agree to the Terms of Service</p>
+			<p>Xiew our Privacy Policy.</p>
+		</div>
+	</form>
+</body>
+</html>
